@@ -68,7 +68,11 @@
               "buildTarget": "y:build:development"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
+          "options": {
+            "host":"192.168.100.250",
+            "port": 5000
+          }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",

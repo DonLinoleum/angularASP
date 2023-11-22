@@ -1,0 +1,48 @@
+td, th {
+    padding:3px;
+    min-height: 180px;
+    max-width: 200px;
+}
+input{
+    width:100%;
+}
+
+.main{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 20px black;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td{
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px rgb(213, 216, 245);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 1s all ease;
+    cursor: pointer;
+}
+
+td:hover{
+    background-color: beige;
+}
+
+button{
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
